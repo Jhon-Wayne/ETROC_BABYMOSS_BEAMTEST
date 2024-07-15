@@ -1,0 +1,13 @@
+*.exe
+*.zip
+*.tar
+*.gz
+*.log
+*.jou
+
+ehthumbs.db
+Thumbs.db
+
+tmp/
+kc705_mig.runs/
+kc705_mig.cache/

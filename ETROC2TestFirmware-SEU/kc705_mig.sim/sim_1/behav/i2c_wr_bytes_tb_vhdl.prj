@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xpm  "/home/wz/EDA_Soft/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd"
+vhdl xil_defaultlib  "../../../src/i2c/i2c_master.vhd"
+vhdl xil_defaultlib  "../../../src/i2c/i2c_wr_bytes.vhd"
+
+# Do not sort compile order
+nosort

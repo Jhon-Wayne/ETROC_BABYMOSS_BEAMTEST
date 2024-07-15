@@ -1,0 +1,7 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Vivado_Project/kc705_ETROC1_Array_20200930/kc705_mig.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Vivado_Project/kc705_ETROC1_Array_20200930/kc705_mig.srcs/sim_1/new/simple_readout_tb.v,1602107035,verilog,,,,simple_readout_tb,,,../../../../kc705_mig.srcs/sources_1/ip/vio_0/hdl,,,,,
+C:/Vivado_Project/kc705_ETROC1_Array_20200930/kc705_mig.srcs/sources_1/new/simple_readout.v,1602098817,verilog,,C:/Vivado_Project/kc705_ETROC1_Array_20200930/kc705_mig.srcs/sim_1/new/simple_readout_tb.v,,simple_readout,,,../../../../kc705_mig.srcs/sources_1/ip/vio_0/hdl,,,,,

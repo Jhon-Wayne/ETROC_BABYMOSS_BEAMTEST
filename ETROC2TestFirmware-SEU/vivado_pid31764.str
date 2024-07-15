@@ -1,0 +1,665 @@
+/*
+
+Xilinx Vivado v2018.3.1 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2489853 on Tue Mar 26 04:20:25 MDT 2019
+IP Build: 2486929 on Tue Mar 26 06:44:21 MDT 2019
+
+Process ID (PID): 31764
+License: Customer
+
+Current time: 	Tue Jan 24 13:36:03 CST 2023
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 3840x2160
+Screen resolution (DPI): 240
+Available screens: 2
+Available disk space: 254 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=30
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	dtgong
+User home directory: C:/Users/dtgong
+User working directory: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/dtgong/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/dtgong/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/dtgong/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/vivado.log
+Vivado journal file location: 	C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/vivado.jou
+Engine tmp dir: 	C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/.Xil/Vivado-31764-WL-140294
+
+Xilinx Environment Variables
+----------------------------
+INTELFPGAOCLSDKROOT: C:\intelFPGA_pro\22.1\hld
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@xilinx-lic
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	384 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 734 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 114 MB (+116833kb) [00:00:03]
+// [Engine Memory]: 671 MB (+552471kb) [00:00:03]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\dtgong\Documents\ETROC2\gitlab\etroc2testfirmware\kc705_mig.xpr. Version: Vivado v2018.3.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 798 MB. GUI used memory: 78 MB. Current time: 1/24/23, 1:36:05 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 882 MB (+185415kb) [00:00:12]
+// [GUI Memory]: 122 MB (+2409kb) [00:00:13]
+// [GUI Memory]: 134 MB (+6000kb) [00:00:13]
+// [Engine Memory]: 989 MB (+66409kb) [00:00:13]
+// [GUI Memory]: 142 MB (+1979kb) [00:00:14]
+// [GUI Memory]: 150 MB (+280kb) [00:00:14]
+// [Engine Memory]: 1,041 MB (+2907kb) [00:00:14]
+// WARNING: HEventQueue.dispatchEvent() is taking  2527 ms.
+// Tcl Message: open_project C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1157 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1144.504 ; gain = 239.359 
+// [Engine Memory]: 1,418 MB (+340160kb) [00:00:17]
+// Project name: kc705_mig; location: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware; part: xc7k325tffg900-2
+// [GUI Memory]: 170 MB (+13886kb) [00:00:17]
+dismissDialog("Open Project"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 182 MB (+3116kb) [00:00:23]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (cp):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_COMPLETED_IMPLEMENTATION_RUN_EXISTS_OK", "OK"); // JButton (C, I)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_32to32_width256/fifo_32to32_width256.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo32to32/fifo32to32.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_160to160_depth2k/fifo_160to160_depth2k.xci' is already up-to-date 
+// Tcl Message: [Tue Jan 24 13:36:26 2023] Launched impl_1... Run output will be captured here: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 205 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bx (cp):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,514 MB. GUI used memory: 114 MB. Current time: 1/24/23, 1:39:55 PM CST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,121 MB. GUI used memory: 113 MB. Current time: 1/24/23, 1:40:08 PM CST
+// [Engine Memory]: 2,121 MB (+662612kb) [00:04:11]
+// [Engine Memory]: 2,276 MB (+51500kb) [00:04:11]
+// TclEventType: DESIGN_NEW
+// Package: addNotify
+// Device: addNotify
+// [Engine Memory]: 2,411 MB (+21877kb) [00:04:13]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 2s
+// DeviceView Instantiated
+// [GUI Memory]: 194 MB (+3092kb) [00:04:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  1825 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 1094 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.3.1 INFO: [Device 21-403] Loading part xc7k325tffg900-2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2262.418 ; gain = 19.875 
+// Tcl Message: Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2262.418 ; gain = 19.875 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2262.418 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 16 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 2 instances   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances   RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 8 instances  
+// Elapsed time: 17 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:18 . Memory (MB): peak = 2535.652 ; gain = 671.949 
+// TclEventType: DRC_ADDED
+// [GUI Memory]: 214 MB (+10810kb) [00:04:14]
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 232 MB (+8041kb) [00:04:18]
+// [GUI Memory]: 244 MB (+387kb) [00:04:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  3077 ms.
+// TclEventType: TIMING_SUMMARY_UPDATED
+// WARNING: HEventQueue.dispatchEvent() is taking  1847 ms.
+// [GUI Memory]: 274 MB (+18199kb) [00:04:22]
+// 'dQ' command handler elapsed time: 26 seconds
+dismissDialog("Open Implemented Design"); // bx (cp)
+// [GUI Memory]: 290 MB (+1870kb) [00:04:24]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 31, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_32to32_width256/fifo_32to32_width256.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo32to32/fifo32to32.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_160to160_depth2k/fifo_160to160_depth2k.xci' is already up-to-date 
+// Tcl Message: [Tue Jan 24 13:40:31 2023] Launched impl_1... Run output will be captured here: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 77 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// Elapsed time: 969 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_WRITE_PROJECT_TCL, "Write Tcl..."); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_WRITE_PROJECT_TCL
+// aM (cp): Write Project to Tcl: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aM)
+selectButton("RDIResource.HChooserHelpers_FILE_ALREADY_EXISTS_OK_TO_OVERWRITE_OK", "OK"); // JButton (C, I)
+// Tcl Command: 'write_project_tcl -use_bd_files -force {C:/Users/dtgong/Documents/ETROC2/kc705_mig.tcl}'
+// 'p' command handler elapsed time: 10 seconds
+selectButton("RDIResource.HFileUtils_OK_TO_OVERWRITE_EXISTING_FILE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Write Project to Tcl"); // aM (cp)
+// Tcl Message: write_project_tcl -use_bd_files -force {C:/Users/dtgong/Documents/ETROC2/kc705_mig.tcl} 
+// bx (cp):  Write Project to Tcl : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message:  
+// Tcl Message:  
+// Tcl Message: write_project_tcl: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2607.148 ; gain = 1.848 
+dismissDialog("Write Project to Tcl"); // bx (cp)
+selectButton("PAResourceTtoZ.WriteProjectTclDialog_SUCCESSFULLY_GENERATED_FILE_WOULD_YOU_No", "No"); // JButton (C, I)
+// Elapsed time: 50 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_WRITE_PROJECT_TCL, "Write Tcl..."); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_WRITE_PROJECT_TCL
+// aM (cp): Write Project to Tcl: addNotify
+// [Engine Memory]: 2,532 MB (+459kb) [00:23:33]
+selectButton(PAResourceTtoZ.WriteProjectTclDialog_PROJECT_TCL_FILE, (String) null); // q (aN, aM)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+setFileChooser("C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.tcl");
+selectButton("RDIResource.HChooserHelpers_FILE_ALREADY_EXISTS_OK_TO_OVERWRITE_OK", "OK"); // JButton (C, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aM)
+// Tcl Command: 'write_project_tcl -use_bd_files -force {C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.tcl}'
+// 'p' command handler elapsed time: 20 seconds
+selectButton("RDIResource.HFileUtils_OK_TO_OVERWRITE_EXISTING_FILE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Write Project to Tcl"); // aM (cp)
+// Tcl Message: write_project_tcl -use_bd_files -force {C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.tcl} 
+// bx (cp):  Write Project to Tcl : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message:  
+// Tcl Message:  
+// Tcl Message: write_project_tcl: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2608.973 ; gain = 0.168 
+dismissDialog("Write Project to Tcl"); // bx (cp)
+selectButton("PAResourceTtoZ.WriteProjectTclDialog_SUCCESSFULLY_GENERATED_FILE_WOULD_YOU_No", "No"); // JButton (C, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,540 MB. GUI used memory: 207 MB. Current time: 1/24/23, 2:10:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,545 MB. GUI used memory: 206 MB. Current time: 1/24/23, 2:10:25 PM CST
+// Elapsed time: 647 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v), global_clock_reset_inst : global_clock_reset(Behavioral) (global_clock_reset.vhd)]", 2, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Elapsed time: 407 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v), global_clock_reset_inst : global_clock_reset(Behavioral) (global_clock_reset.vhd)]", 2, true); // B (D, cp) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v), global_clock_reset_inst : global_clock_reset(Behavioral) (global_clock_reset.vhd)]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v), global_clock_reset_inst : global_clock_reset(Behavioral) (global_clock_reset.vhd), clockwiz_inst : clockwiz (clockwiz.xci)]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v), global_clock_reset_inst : global_clock_reset(Behavioral) (global_clock_reset.vhd), clockwiz_inst : clockwiz (clockwiz.xci)]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// O (cp):  Re-customize IP : addNotify
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,567 MB. GUI used memory: 220 MB. Current time: 1/24/23, 2:17:40 PM CST
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cT (C, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cT (C, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cT (C, r)
+setText("PRIM IN FREQ", "40"); // z (cU)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,594 MB. GUI used memory: 221 MB. Current time: 1/24/23, 2:17:55 PM CST
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cT (C, r)
+setText("CLKOUT1 REQUESTED OUT FREQ", "20"); // z (cU)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT2 REQUESTED OUT FREQ", "40"); // z (cU)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,630 MB. GUI used memory: 221 MB. Current time: 1/24/23, 2:18:16 PM CST
+setText("CLKOUT3 REQUESTED OUT FREQ", "120"); // z (cU)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT4 REQUESTED OUT FREQ", "320"); // z (cU)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 12 seconds
+setText("CLKOUT5 REQUESTED OUT FREQ", "160"); // z (cU, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// aI (cp): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/ipcore_dir/clockwiz/clockwiz.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clockwiz'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clockwiz'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clockwiz'... INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clockwiz'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clockwiz'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/ipcore_dir/clockwiz/clockwiz.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run clockwiz_synth_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 8 clockwiz_synth_1 
+// Tcl Message: [Tue Jan 24 14:18:43 2023] Launched clockwiz_synth_1... Run output will be captured here: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.runs/clockwiz_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 11 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (C, I)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v), global_clock_reset_inst : global_clock_reset(Behavioral) (global_clock_reset.vhd), clockwiz_inst : clockwiz (clockwiz.xci)]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v), global_clock_reset_inst : global_clock_reset(Behavioral) (global_clock_reset.vhd), clockwiz_inst : clockwiz (clockwiz.xci)]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (cp):  Re-customize IP : addNotify
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (cp)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cT (C, r)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 12 seconds
+setText("PRIM IN FREQ", "40.00"); // z (cU, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cT (C, r)
+// Elapsed time: 13 seconds
+dismissDialog("Re-customize IP"); // r (cp)
+// [Engine Memory]: 2,698 MB (+41514kb) [00:43:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 265 MB. Current time: 1/24/23, 2:19:30 PM CST
+// [GUI Memory]: 321 MB (+18275kb) [00:43:41]
+// Elapsed time: 162 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v), gig_eth_inst : gig_eth(wrapper) (gig_eth.vhd)]", 6, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v), gig_eth_inst : gig_eth(wrapper) (gig_eth.vhd)]", 6, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_mig (kc705_mig.v), gig_eth_inst : gig_eth(wrapper) (gig_eth.vhd), example_resets : tri_mode_ethernet_mac_0_example_design_resets(RTL) (gig_eth_mac_resets.vhd)]", 7, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 563 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 23, true); // B (D, cp) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 23); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 24); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, kc705_GTX.xdc]", 27, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, top_KC705.xdc]", 25, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, top_KC705.xdc]", 25, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, top_KC705.xdc]", 25, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 340 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cp): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_32to32_width256/fifo_32to32_width256.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo32to32/fifo32to32.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_160to160_depth2k/fifo_160to160_depth2k.xci' is already up-to-date 
+// Tcl Message: [Tue Jan 24 14:37:34 2023] Launched synth_1... Run output will be captured here: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Synthesis Completed: addNotify
+// Elapsed time: 149 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // ah (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_32to32_width256/fifo_32to32_width256.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo32to32/fifo32to32.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_160to160_depth2k/fifo_160to160_depth2k.xci' is already up-to-date 
+// Tcl Message: [Tue Jan 24 14:40:07 2023] Launched impl_1... Run output will be captured here: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 231 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Implementation Completed"); // ah (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 31, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_32to32_width256/fifo_32to32_width256.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo32to32/fifo32to32.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_160to160_depth2k/fifo_160to160_depth2k.xci' is already up-to-date 
+// Tcl Message: [Tue Jan 24 14:44:06 2023] Launched impl_1... Run output will be captured here: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 253 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cp): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_32to32_width256/fifo_32to32_width256.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo32to32/fifo32to32.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_160to160_depth2k/fifo_160to160_depth2k.xci' is already up-to-date 
+// Tcl Message: [Tue Jan 24 14:48:30 2023] Launched synth_1... Run output will be captured here: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 251 MB. Current time: 1/24/23, 2:49:31 PM CST
+// TclEventType: RUN_COMPLETED
+// ah (cp): Synthesis Completed: addNotify
+// Elapsed time: 78 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // ah (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_32to32_width256/fifo_32to32_width256.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo32to32/fifo32to32.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_160to160_depth2k/fifo_160to160_depth2k.xci' is already up-to-date 
+// Tcl Message: [Tue Jan 24 14:49:53 2023] Launched impl_1... Run output will be captured here: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 223 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Implementation Completed"); // ah (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 31, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_32to32_width256/fifo_32to32_width256.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo32to32/fifo32to32.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.srcs/sources_1/ip/fifo_160to160_depth2k/fifo_160to160_depth2k.xci' is already up-to-date 
+// Tcl Message: [Tue Jan 24 14:53:40 2023] Launched impl_1... Run output will be captured here: C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 255 MB. Current time: 1/24/23, 3:19:31 PM CST
+// Elapsed time: 2053 seconds
+closeMainWindow("kc705_mig - [C:/Users/dtgong/Documents/ETROC2/gitlab/etroc2testfirmware/kc705_mig.xpr] - Vivado 2018.3.1"); // cp
+// A (cp): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Exit Vivado"); // A (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 254 MB. Current time: 1/24/23, 3:49:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 254 MB. Current time: 1/24/23, 4:19:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 224 MB. Current time: 1/24/23, 4:49:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 224 MB. Current time: 1/24/23, 5:19:32 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  23501679 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 224 MB. Current time: 1/24/23, 11:57:53 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2787 ms.
+// [GUI Memory]: 338 MB (+114kb) [10:35:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 254 MB. Current time: 1/25/23, 12:27:53 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1178 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1311 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1485 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  25837635 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 254 MB. Current time: 1/25/23, 7:53:17 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  3558040 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 223 MB. Current time: 1/25/23, 8:52:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 254 MB. Current time: 1/25/23, 9:22:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 274 MB. Current time: 1/25/23, 9:52:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 254 MB. Current time: 1/25/23, 10:37:07 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1120 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 265 MB. Current time: 1/25/23, 11:07:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,698 MB. GUI used memory: 254 MB. Current time: 1/25/23, 11:37:11 AM CST
