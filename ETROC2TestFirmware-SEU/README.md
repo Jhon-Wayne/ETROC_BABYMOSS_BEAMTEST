@@ -13,7 +13,7 @@ Reg 10 : {prescale_factor,initAddressFirst[11:0]}   \
 Reg 11 : {duration[15:0]} \ 
 Reg 12 : {errorMask[7:0],trigDataSize[1:0],period,1'bx,inputCmd[3:0]} \
 Reg 13 : {dataRate[1:0],LED_Pages[2:0],status_Pages[1:0]}  \
-Reg 14 : {auto_prescale,fixed_time_filler,bit_latency[3:0],falling_edge,manual_mode,sample_event,simple_handshake,add_ethernet_filler,debug_mode,dumping_mode,notGTXPolarity,notGTX,enableAutoSync} \
+Reg 14 : {auto_prescale,fixed_time_filler,external trigger(1) or self trigger (0), bit_latency[2:0],falling_edge,manual_mode,sample_event,simple_handshake,add_ethernet_filler,debug_mode,dumping_mode,notGTXPolarity,notGTX,enableAutoSync} \
 Reg 15 : {global_trig_delay[4:0],global_trig,trig_or_logic,triple_trig,en_ws_trig,ws_trig_stop_delay[2:0],enableCh[3:0]} 
 
 Status registers:\
